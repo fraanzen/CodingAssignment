@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: se.ecutb.service.PersonServiceTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 6, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! - in se.ecutb.service.PersonServiceTest
+given_null_findByAddress_return_list_of_3  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.PersonServiceTest.given_null_findByAddress_return_list_of_3(PersonServiceTest.java:107)
+
+given_city_findPeopleByCity_return_list_size_3  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.PersonServiceTest.given_city_findPeopleByCity_return_list_size_3(PersonServiceTest.java:113)
+
+given_email_findByEmail_return_Person  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Person{personId=1, firstName='Test', lastName='Testsson', email='test@gmail.com', address=Address{street='TestStreet 1', zipCode='12345', city='TestCity'}}> but was: <null>
+	at se.ecutb.service.PersonServiceTest.given_email_findByEmail_return_Person(PersonServiceTest.java:82)
+
+given_address_findByAddress_return_list_of_2  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.PersonServiceTest.given_address_findByAddress_return_list_of_2(PersonServiceTest.java:102)
+
+given_fullName_findPeopleByFullName_return_list_size_1  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.PersonServiceTest.given_fullName_findPeopleByFullName_return_list_size_1(PersonServiceTest.java:119)
+
+findPeopleWithNoTodos_return_list_size_3  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.PersonServiceTest.findPeopleWithNoTodos_return_list_size_3(PersonServiceTest.java:96)
+
+createPerson_with_duplicate_email_return_null  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <Person{personId=7, firstName='Nils', lastName='Svensson', email='test@gmail.com', address=null}>
+	at se.ecutb.service.PersonServiceTest.createPerson_with_duplicate_email_return_null(PersonServiceTest.java:75)
+
+given_personId_deletePerson_return_true_and_all_references_removed  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at se.ecutb.service.PersonServiceTest.given_personId_deletePerson_return_true_and_all_references_removed(PersonServiceTest.java:131)
+
+findPeopleWithAssignedTodos_return_list_size_3  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.PersonServiceTest.findPeopleWithAssignedTodos_return_list_size_3(PersonServiceTest.java:89)
+

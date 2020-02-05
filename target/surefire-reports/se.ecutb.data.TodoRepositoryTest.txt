@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: se.ecutb.data.TodoRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.041 s <<< FAILURE! - in se.ecutb.data.TodoRepositoryTest
+given_7_delete_should_throw_illegalArgumentException  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at se.ecutb.data.TodoRepositoryTest.given_7_delete_should_throw_illegalArgumentException(TodoRepositoryTest.java:110)
+
+given_2_delete_should_return_true  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at se.ecutb.data.TodoRepositoryTest.given_2_delete_should_return_true(TodoRepositoryTest.java:104)
+
+given_clean_findByTaskDescriptionContains_return_list_size_2  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <0>
+	at se.ecutb.data.TodoRepositoryTest.given_clean_findByTaskDescriptionContains_return_list_size_2(TodoRepositoryTest.java:46)
+

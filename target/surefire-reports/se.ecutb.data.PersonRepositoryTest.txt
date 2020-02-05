@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: se.ecutb.data.PersonRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in se.ecutb.data.PersonRepositoryTest
+given_address_findByAddress_should_return_list_of_2_people  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at se.ecutb.data.PersonRepositoryTest.given_address_findByAddress_should_return_list_of_2_people(PersonRepositoryTest.java:63)
+
+given_person_with_duplicate_email_persist_should_throw_IllegalArgumentException  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at se.ecutb.data.PersonRepositoryTest.given_person_with_duplicate_email_persist_should_throw_IllegalArgumentException(PersonRepositoryTest.java:54)
+
+given_1_delete_should_return_true  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at se.ecutb.data.PersonRepositoryTest.given_1_delete_should_return_true(PersonRepositoryTest.java:102)
+
+given_4_delete_should_throw_IllegalArgumentException  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at se.ecutb.data.PersonRepositoryTest.given_4_delete_should_throw_IllegalArgumentException(PersonRepositoryTest.java:108)
+
+given_null_findByAddress_should_return_list_of_1_person  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at se.ecutb.data.PersonRepositoryTest.given_null_findByAddress_should_return_list_of_1_person(PersonRepositoryTest.java:71)
+

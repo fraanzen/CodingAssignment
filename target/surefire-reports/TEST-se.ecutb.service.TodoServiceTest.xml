@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="se.ecutb.service.TodoServiceTest" time="0.031" tests="12" errors="11" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\matti\Downloads\CodingAssignment\target\test-classes;C:\Users\matti\Downloads\CodingAssignment\target\classes;C:\Users\matti\.m2\repository\org\springframework\spring-context\5.2.2.RELEASE\spring-context-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\springframework\spring-aop\5.2.2.RELEASE\spring-aop-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\springframework\spring-beans\5.2.2.RELEASE\spring-beans-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\springframework\spring-core\5.2.2.RELEASE\spring-core-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\springframework\spring-jcl\5.2.2.RELEASE\spring-jcl-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\springframework\spring-expression\5.2.2.RELEASE\spring-expression-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\springframework\spring-test\5.2.2.RELEASE\spring-test-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\matti\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\matti\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\matti\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\matti\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\matti\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="SE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\matti\AppData\Local\Temp\surefire2096047929826164364\surefirebooter4509092184196524711.jar C:\Users\matti\AppData\Local\Temp\surefire2096047929826164364 2020-02-05T15-28-33_718-jvmRun1 surefire7889578387871105292tmp surefire_08544356341821013930tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\matti\Downloads\CodingAssignment\target\test-classes;C:\Users\matti\Downloads\CodingAssignment\target\classes;C:\Users\matti\.m2\repository\org\springframework\spring-context\5.2.2.RELEASE\spring-context-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\springframework\spring-aop\5.2.2.RELEASE\spring-aop-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\springframework\spring-beans\5.2.2.RELEASE\spring-beans-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\springframework\spring-core\5.2.2.RELEASE\spring-core-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\springframework\spring-jcl\5.2.2.RELEASE\spring-jcl-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\springframework\spring-expression\5.2.2.RELEASE\spring-expression-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\springframework\spring-test\5.2.2.RELEASE\spring-test-5.2.2.RELEASE.jar;C:\Users\matti\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\Users\matti\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\matti\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\matti\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\Users\matti\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\matti\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\matti"/>
+    <property name="user.language" value="sv"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="basedir" value="C:\Users\matti\Downloads\CodingAssignment"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\matti\AppData\Local\Temp\surefire2096047929826164364\surefirebooter4509092184196524711.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="matti"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\matti\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\matti\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="C:\Users\matti\Downloads\CodingAssignment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="idea.version2019.3.1" value="true"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\matti\AppData\Local\Microsoft\WindowsApps;;C:\Users\matti\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="findAssignedTasks_return_list_size_6" classname="se.ecutb.service.TodoServiceTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.findAssignedTasks_return_list_size_6(TodoServiceTest.java:90)
+</error>
+    <system-err><![CDATA[feb 05, 2020 3:28:37 EM org.springframework.test.context.support.AbstractTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+INFO: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+feb 05, 2020 3:28:37 EM org.springframework.test.context.support.AbstractTestContextBootstrapper getTestExecutionListeners
+INFO: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@41f69e84, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7975d1d8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2438dcd, org.springframework.test.context.event.EventPublishingTestExecutionListener@24105dc5]
+]]></system-err>
+  </testcase>
+  <testcase name="given_date_findByDeadLineBefore_return_list_size_2" classname="se.ecutb.service.TodoServiceTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_date_findByDeadLineBefore_return_list_size_2(TodoServiceTest.java:61)
+</error>
+  </testcase>
+  <testcase name="given_1000_findById_should_throw_IllegalArgumentException" classname="se.ecutb.service.TodoServiceTest" time="0">
+    <failure message="Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at se.ecutb.service.TodoServiceTest.given_1000_findById_should_throw_IllegalArgumentException(TodoServiceTest.java:106)
+</failure>
+  </testcase>
+  <testcase name="given_testId_delete_should_return_true_and_todo_is_removed" classname="se.ecutb.service.TodoServiceTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_testId_delete_should_return_true_and_todo_is_removed(TodoServiceTest.java:117)
+</error>
+  </testcase>
+  <testcase name="given_todoId_findById_should_return_todoDto" classname="se.ecutb.service.TodoServiceTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_todoId_findById_should_return_todoDto(TodoServiceTest.java:100)
+</error>
+  </testcase>
+  <testcase name="given_false_findByDoneStatus_return_list_size_7" classname="se.ecutb.service.TodoServiceTest" time="0.013">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_false_findByDoneStatus_return_list_size_7(TodoServiceTest.java:95)
+</error>
+  </testcase>
+  <testcase name="given_text_findByTaskDescription_return_list_size_7" classname="se.ecutb.service.TodoServiceTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_text_findByTaskDescription_return_list_size_7(TodoServiceTest.java:55)
+</error>
+  </testcase>
+  <testcase name="findUnassignedTasks_return_list_size_1" classname="se.ecutb.service.TodoServiceTest" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.findUnassignedTasks_return_list_size_1(TodoServiceTest.java:85)
+</error>
+  </testcase>
+  <testcase name="findAllShould_return_list_size_7" classname="se.ecutb.service.TodoServiceTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.findAllShould_return_list_size_7(TodoServiceTest.java:112)
+</error>
+  </testcase>
+  <testcase name="given_start_and_end_findByDeadLineBetween_return_list_size_2" classname="se.ecutb.service.TodoServiceTest" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_start_and_end_findByDeadLineBetween_return_list_size_2(TodoServiceTest.java:74)
+</error>
+  </testcase>
+  <testcase name="given_date_findByDeadLineAfter_return_list_size_3" classname="se.ecutb.service.TodoServiceTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_date_findByDeadLineAfter_return_list_size_3(TodoServiceTest.java:67)
+</error>
+  </testcase>
+  <testcase name="given_personId_findAssignedTasksByPersonId_return_list_size_3" classname="se.ecutb.service.TodoServiceTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_personId_findAssignedTasksByPersonId_return_list_size_3(TodoServiceTest.java:80)
+</error>
+  </testcase>
+</testsuite>

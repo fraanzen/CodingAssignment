@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: se.ecutb.service.TodoDtoConversionServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.037 s <<< FAILURE! - in se.ecutb.service.TodoDtoConversionServiceTest
+given_todoWithAssignee_convertToDto_return_expected  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <TodoDto{todoId=2, taskDescription='TestTodo2', deadLine=2020-02-04, assigneeId=1, done=false}> but was: <null>
+	at se.ecutb.service.TodoDtoConversionServiceTest.given_todoWithAssignee_convertToDto_return_expected(TodoDtoConversionServiceTest.java:45)
+
+given_todoNoAssignee_convertToDto_return_expected  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <TodoDto{todoId=1, taskDescription='TestTodo', deadLine=2020-02-04, assigneeId=null, done=false}> but was: <null>
+	at se.ecutb.service.TodoDtoConversionServiceTest.given_todoNoAssignee_convertToDto_return_expected(TodoDtoConversionServiceTest.java:38)
+

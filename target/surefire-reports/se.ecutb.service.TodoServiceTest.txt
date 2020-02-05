@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: se.ecutb.service.TodoServiceTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 11, Skipped: 0, Time elapsed: 0.031 s <<< FAILURE! - in se.ecutb.service.TodoServiceTest
+findAssignedTasks_return_list_size_6  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.findAssignedTasks_return_list_size_6(TodoServiceTest.java:90)
+
+given_date_findByDeadLineBefore_return_list_size_2  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_date_findByDeadLineBefore_return_list_size_2(TodoServiceTest.java:61)
+
+given_1000_findById_should_throw_IllegalArgumentException  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at se.ecutb.service.TodoServiceTest.given_1000_findById_should_throw_IllegalArgumentException(TodoServiceTest.java:106)
+
+given_testId_delete_should_return_true_and_todo_is_removed  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_testId_delete_should_return_true_and_todo_is_removed(TodoServiceTest.java:117)
+
+given_todoId_findById_should_return_todoDto  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_todoId_findById_should_return_todoDto(TodoServiceTest.java:100)
+
+given_false_findByDoneStatus_return_list_size_7  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_false_findByDoneStatus_return_list_size_7(TodoServiceTest.java:95)
+
+given_text_findByTaskDescription_return_list_size_7  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_text_findByTaskDescription_return_list_size_7(TodoServiceTest.java:55)
+
+findUnassignedTasks_return_list_size_1  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.findUnassignedTasks_return_list_size_1(TodoServiceTest.java:85)
+
+findAllShould_return_list_size_7  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.findAllShould_return_list_size_7(TodoServiceTest.java:112)
+
+given_start_and_end_findByDeadLineBetween_return_list_size_2  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_start_and_end_findByDeadLineBetween_return_list_size_2(TodoServiceTest.java:74)
+
+given_date_findByDeadLineAfter_return_list_size_3  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_date_findByDeadLineAfter_return_list_size_3(TodoServiceTest.java:67)
+
+given_personId_findAssignedTasksByPersonId_return_list_size_3  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at se.ecutb.service.TodoServiceTest.given_personId_findAssignedTasksByPersonId_return_list_size_3(TodoServiceTest.java:80)
+
